@@ -7,3 +7,5 @@ devtools::install_github("hyu020/MeTMEC")
 #Calculate the cell composition 
 
 library(MeTMEC) #loading the package
+mycells <- calMeTIL(data.array)
+mycells
